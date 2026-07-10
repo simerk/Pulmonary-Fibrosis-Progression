@@ -1,0 +1,40 @@
+# --- Data (Kaggle competition data is large & shouldn't live in git) ---
+input/
+data/
+*.dcm
+*.csv
+!sample_submission_example.csv
+
+# --- Model artifacts ---
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+models/
+weights/
+
+# --- Submission files ---
+submission*.csv
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log

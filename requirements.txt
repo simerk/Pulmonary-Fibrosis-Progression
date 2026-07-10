@@ -1,0 +1,14 @@
+numpy
+pandas
+opencv-python
+pydicom
+tensorflow
+scikit-learn
+scikit-image
+scipy
+matplotlib
+plotly
+cufflinks
+tqdm
+colorama
+efficientnet
