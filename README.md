@@ -6,8 +6,8 @@ A machine learning project for the [OSIC Pulmonary Fibrosis Progression](https:/
 
 | Notebook | Description |
 |---|---|
-| `eda-minor.ipynb` | Exploratory data analysis: clinical metadata distributions (Age, Sex, Smoking Status, FVC, Weeks), DICOM CT scan loading, Hounsfield Unit conversion, and lung segmentation/masking. |
-| `minor-pulmonary-fibrosis-project.ipynb` | Modeling pipeline: <br>1. **EfficientNet CNN** — predicts a per-patient FVC decline coefficient from CT images + tabular features. <br>2. **Quantile regression (Keras)** — predicts FVC quantiles (q25/q50/q75) from tabular features, trained with a custom competition metric (Laplace log-likelihood). <br>3. **Ensemble** — blends the CNN and quantile regression outputs to produce the final submission. |
+| `eda.ipynb` | Exploratory data analysis: clinical metadata distributions (Age, Sex, Smoking Status, FVC, Weeks), DICOM CT scan loading, Hounsfield Unit conversion, and lung segmentation/masking. |
+| `pulmonary-fibrosis-project.ipynb` | Modeling pipeline: <br>1. **EfficientNet CNN** — predicts a per-patient FVC decline coefficient from CT images + tabular features. <br>2. **Quantile regression (Keras)** — predicts FVC quantiles (q25/q50/q75) from tabular features, trained with a custom competition metric (Laplace log-likelihood). <br>3. **Ensemble** — blends the CNN and quantile regression outputs to produce the final submission. |
 
 ## Approach
 
